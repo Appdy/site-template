@@ -12,6 +12,10 @@ VERSION: Versoin Number
   font-display: swap
 }
 
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
   line-height: 1.2;
   font-family: roboto, sans-serif;
@@ -35,7 +39,7 @@ h4,
 h5,
 h6 {
   color: #000;
-  font-family: playfair display, serif;
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 1.2
 }
 
@@ -87,7 +91,7 @@ h6,
 
 .btn {
   font-size: 22px;
-  font-family: playfair display, serif;
+  font-family: Arial, Helvetica, sans-serif;
   text-transform: capitalize;
   padding: 16px 44px;
   border-radius: 5px;
@@ -336,7 +340,8 @@ a:hover {
 }
 
 .font-secondary {
-  font-family: playfair display, serif !important
+  font-family: Arial, Helvetica, sans-serif !important;
+
 }
 
 .font-tertiary {
@@ -746,7 +751,7 @@ blockquote {
 }
 
 .content strong {
-  font-family: playfair display, serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 22px;
   font-weight: 400;
   color: #000;
@@ -920,4 +925,10 @@ blockquote {
   display: flex;
   justify-content: center;
   text-align: center;
+}
+
+.hero-area {
+  h1, h3 {
+    text-align: center;
+  }
 }

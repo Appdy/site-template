@@ -56,16 +56,15 @@ logo = ""
 theme_color = "#41228e"
 # contact info
 phone = ""
-email = ""
-address = ""
+email = "contact@appdy.net"
+address = "International House, 12 Constance Street, London, E16 2DQ"
 # meta description
 author = "Appdy LTD"
 description = "Digital Agency Based in London"
 # google analytics
 google_analytics_id = "" # Your ID
 # copyright
-copyright = "Copyright &copy; 2020 Appdy LTD a theme by [gethugothemes](https://gethugothemes.com)"
-
+copyright = "Copyright &copy; 2020 Appdy LTD \n\n Theme by [gethugothemes](https://gethugothemes.com)"
 
 # preloader
 [params.preloader]
@@ -74,8 +73,11 @@ preloader = "images/preloader.gif" # use png, jpg, svg or gif format
 
 # contact
 [params.contact]
-enable = false
-form_action = "#" # contact form works with : https://formspree.io
+enable = true
+form_action = "https://formspree.io/mjvanzra" # contact form works with : https://formspree.io
+
+[params.contacts]
+enable = true
 
 # google map
 [params.map]
@@ -87,17 +89,21 @@ map_marker = "images/marker.png"
 
 # social site
 [[params.social]]
+enabled = false
 icon = "ti-facebook"
 URL = "#"
 
 [[params.social]]
+enabled = false
 icon = "ti-instagram"
 URL = "#"
 
 [[params.social]]
+enabled = false
 icon = "ti-dribbble"
 URL = "#"
 
 [[params.social]]
+enabled = false
 icon = "ti-twitter-alt"
 URL = "#"

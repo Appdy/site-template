@@ -34,24 +34,32 @@
 
 <!-- footer -->
 <footer class="bg-dark footer-section">
+  {{ if site.Params.contacts.enable }}
   <div class="section">
-    <div class="container">
+    <div class="container contacts">
       <div class="row">
+        {{ if site.Params.email }}
         <div class="col-md-4">
           <h5 class="text-light">Email</h5>
           <p class="text-white paragraph-lg font-secondary">{{site.Params.email}}</p>
         </div>
+        {{ end }}
+        {{ if site.Params.phone }}
         <div class="col-md-4">
           <h5 class="text-light">Phone</h5>
           <p class="text-white paragraph-lg font-secondary">{{site.Params.phone}}</p>
         </div>
+        {{ end }}
+        {{ if site.Params.address }}
         <div class="col-md-4">
           <h5 class="text-light">Address</h5>
           <p class="text-white paragraph-lg font-secondary">{{site.Params.address}}</p>
         </div>
+        {{ end }}
       </div>
     </div>
   </div>
+  {{ end }}
   <div class="border-top text-center border-dark py-5">
     <p class="mb-0 text-light">{{ site.Params.copyright | markdownify }}</p>
   </div>
