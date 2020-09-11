@@ -1,0 +1,4 @@
+[submodule "mySite/public"]
+	path = mySite/public
+	url = git@github.com:Appdy/site.git
+	branch = master
