@@ -1,4 +1,4 @@
-// Preloader js    
+// Preloader js
 $(window).on('load', function () {
 	$('.preloader').fadeOut(100);
 });
@@ -42,7 +42,7 @@ $(window).on('load', function () {
 
 		var parallaxBox = document.getElementById('parallax');
 		/*
-		 Fix js error, occurred at pages other than the home page. 
+		 Fix js error, occurred at pages other than the home page.
 		 When there're no parallax, just ignore the below
 		 other operations, as below elements are bingding to the parallax.
 		*/
@@ -99,54 +99,57 @@ $(window).on('load', function () {
 	/* ########################################### /hero parallax ############################################## */
 
 	// testimonial-slider
-	$('.testimonial-slider').slick({
-		dots: true,
-		infinite: true,
-		speed: 300,
-		slidesToShow: 1,
-		arrows: false,
-		adaptiveHeight: true
-	});
+  if ($.slick != undefined) {
+		$('.testimonial-slider').slick({
+			dots: true,
+			infinite: true,
+			speed: 300,
+			slidesToShow: 1,
+			arrows: false,
+			adaptiveHeight: true
+		});
 
 
-	// clients logo slider
-	$('.client-logo-slider').slick({
-		infinite: true,
-		slidesToShow: 5,
-		slidesToScroll: 1,
-		autoplay: true,
-		dots: false,
-		arrows: false,
-		responsive: [{
-				breakpoint: 1024,
-				settings: {
-					slidesToShow: 3,
-					slidesToScroll: 1
+		// clients logo slider
+		$('.client-logo-slider').slick({
+			infinite: true,
+			slidesToShow: 5,
+			slidesToScroll: 1,
+			autoplay: true,
+			dots: false,
+			arrows: false,
+			responsive: [
+				{
+					breakpoint: 1024,
+					settings: {
+						slidesToShow: 3,
+						slidesToScroll: 1
+					}
+				},
+				{
+					breakpoint: 600,
+					settings: {
+						slidesToShow: 3,
+						slidesToScroll: 1
+					}
+				},
+				{
+					breakpoint: 480,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 1
+					}
+				},
+				{
+					breakpoint: 400,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1
+					}
 				}
-			},
-			{
-				breakpoint: 600,
-				settings: {
-					slidesToShow: 3,
-					slidesToScroll: 1
-				}
-			},
-			{
-				breakpoint: 480,
-				settings: {
-					slidesToShow: 2,
-					slidesToScroll: 1
-				}
-			},
-			{
-				breakpoint: 400,
-				settings: {
-					slidesToShow: 1,
-					slidesToScroll: 1
-				}
-			}
-		]
-	});
+			]
+		});
+	}
 
 	// Shuffle js filter and masonry
 	var containerEl = document.querySelector('.shuffle-wrapper');
