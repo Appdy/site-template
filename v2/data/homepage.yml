@@ -1,0 +1,200 @@
+# banner
+banner:
+  title : "We help (Niche) to Optimize Revenue via Online Marketing Solutions."
+  subtitle: "It's about time to get an fair return from your online marketing investments."
+
+# about
+about:
+  enable : true
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  button:
+    enable : false
+    label : "know more"
+    URL : "about"
+
+# skill
+skill:
+  enable : false
+  title : "Skills"
+  item:
+    - title : "Web Design"
+      progress : "90%"
+      color : "#fdb157"
+
+    - title : "Logo Design"
+      progress : "60%"
+      color : "#9473e6"
+
+    - title : "After Effects"
+      progress : "80%"
+      color : "#bdecf6"
+
+    - title : "Web App"
+      progress : "70%"
+      color : "#ffbcaa"
+
+# experience
+experience:
+  enable : false
+  title : "Experience"
+  item:
+    - logo : "images/experience/icon-1.png"
+      title : "Junior UX Designer"
+      company : "WEBEX"
+      duration : "Jan 2007 - Feb 2009"
+
+    - logo : "images/experience/icon-2.png"
+      title : "UX & UI Designer"
+      company : "AUGMEDIX"
+      duration : "Mar 2009 - Aug 2014"
+
+    - logo : "images/experience/icon-1.png"
+      title : "Senior UI Designer"
+      company : "THEMEFISHER"
+      duration : "Sep 2014 - Present"
+
+# education
+education:
+  enable : false
+  title : "Education"
+  item:
+    - title : "Marters in UX Design"
+      year : "2006"
+      academy : "Masassusets Institute of Technology"
+
+    - title : "Honours in Fine Arts"
+      year : "2004"
+      academy : "Harvard University"
+
+    - title : "Higher Secondary Certificat"
+      year : "2000"
+      academy : "Cardiff School"
+
+    - title : "Secondary School Certificate"
+      year : "1998"
+      academy : "Cardiff School"
+
+# service
+service:
+  enable : true
+  title : "Services"
+  item:
+    - title : "Web Design"
+      icon : "ti-desktop"
+      content : "Pixel perfect, accessability, fast, responsive, SEO optimized we are accessability experts - when most of the digital agencies discriminate half of the audience, we do adapt accessability features to our products."
+      highlighted : false
+
+    - title : "Advertising"
+      icon : "ti-trello"
+      content : "When most of the agencies try to not get below the average ROAS fold, we try to reach it's peak."
+      highlighted : false
+
+    - title : "Sales Funnels"
+      icon : "ti-shopping-cart-full"
+      content : "We are optimization freaks always trying to get things to next better level. With our custom sales funnels, your business will optimize it's profit from every single visitor."
+      highlighted : false
+
+trustedBy:
+  enable: true
+  item:
+    - website: "podcastarts.com"
+      URL: "https://podcastarts.com/"
+      image: "images/trustedby/podcastarts.jpg"
+      opinion: "We asked Appdy to create a new design for our agency website. The Appdy team did a fantastic job. The level of detail and creativity are world-class. They also created an entire sales funnel, optimized for conversion, optimized website SEO, and ran Adwords ads for us. Great experience!"
+      client: "Mary J. Wood"
+      service: "Web Design"
+
+    - website: "warmwanted.com"
+      URL: "https://warmwanted.com"
+      image: "images/trustedby/warmwanted-mockup.jpg"
+      opinion: "We wanted to launch another dropshipping store just before Black Friday/Cyber Monday, and it was already the middle of October. Appdy did a fantastic job designing a brand and shop on time so that we could test our products at the peak of the season."
+      client: "Carolyn Cribbs"
+      service: "Web Design"
+
+    - website: "wucaivase.com"
+      URL: ""
+      image: "images/trustedby/wucai-vase-project.jpg"
+      opinion: "Appdy team is very skillful! My dropshipping store looks fantastic, they implemented the shop precisely as I described. The website loads very fast, much faster than Shopify. I highly recommend Appdy, and we will work again."
+      client: "Mark A. Navarro"
+      service: "Web Design"
+
+    - website: "posturegainer.com"
+      URL: ""
+      image: "images/trustedby/posturegainer-mockup.jpg"
+      opinion: "I wanted to copy another dropshipping store that claimed to be successful. Appdy created a store and did all the branding in no time. The store looks very good and is very fast, especially on mobile, which is a must in this business. Well done! I recommend Appdy."
+      client: "Steven Patterson"
+      service: "Web Design"
+
+    - website: "smartbetterliving.com"
+      URL: ""
+      image: "images/trustedby/smartbetterliving-mockup.jpg"
+      opinion: "a"
+      client: "b"
+      service: "Web Design"
+
+# portfolio
+portfolio:
+  enable : false
+  title : "Portfolio"
+  item_show : 5
+  # portfolio item comes from 'data/portfolio.yml' item.
+
+# testimonial
+testimonial:
+  enable : false
+  title : "Testimonials"
+  item:
+    - name : "Jesica Gomez"
+      image : "images/testimonial/client-1.png"
+      designation : "CEO, Funder"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+    - name : "Shirley Scot"
+      image : "images/testimonial/client-1.png"
+      designation : "CEO, Funder"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+    - name : "Jessica Julie"
+      image : "images/testimonial/client-1.png"
+      designation : "CEO, Funder"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+# client logo slider
+clients_logo_slider:
+  enable : false
+  item:
+    - logo : "images/clients-logo/client-logo-1.png"
+      URL : "http://examplesite.com"
+
+    - logo : "images/clients-logo/client-logo-2.png"
+      URL : "#"
+
+    - logo : "images/clients-logo/client-logo-3.png"
+      URL : "http://examplesite.com"
+
+    - logo : "images/clients-logo/client-logo-4.png"
+      URL : "#"
+
+    - logo : "images/clients-logo/client-logo-5.png"
+      URL : "http://examplesite.com"
+
+    - logo : "images/clients-logo/client-logo-1.png"
+      URL : "#"
+
+    - logo : "images/clients-logo/client-logo-2.png"
+      URL : "http://examplesite.com"
+
+    - logo : "images/clients-logo/client-logo-3.png"
+      URL : "#"
+
+    - logo : "images/clients-logo/client-logo-4.png"
+      URL : "http://examplesite.com"
+
+    - logo : "images/clients-logo/client-logo-5.png"
+      URL : "#"
+
+# blog
+blog:
+  enable : false
+  title : "Blogs"
+  # blog post comes from "content/blog" folder

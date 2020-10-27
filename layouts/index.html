@@ -185,6 +185,25 @@
   {{ end }}
   {{ end }}
 
+  {{ if site.Data.homepage.trustedBy.enable }}
+  {{ with site.Data.homepage.trustedBy }}
+  <!-- trusted by -->
+  <section class="section trustedby">
+    <div class="container">
+      <div class="row">
+        {{ range .item }}
+        <div class="col-lg-10 mx-auto text-center">
+          <img alt="Mockup of website {{ .website }}." src="{{ .image | absURL }}" class="img-fluid mockup">
+          <a href="{{ .URL | absURL }}" class="website">{{ .website }}</a>
+          <p class="opinion">{{ .opinion }} ~ <span class="client">{{ .client }}</span></p>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  <!-- trusted by -->
+  {{ end }}
+  {{ end }}
 
   {{ if site.Data.homepage.portfolio.enable }}
   <!-- portfolio -->
