@@ -22,10 +22,10 @@
   {{ "<!-- Main Stylesheet -->" | safeHTML }}
   <!-- {{ $styles := resources.Get "css/style.css" | minify }} -->
 
-  {{ $toCssOptions := (dict "outputStyle" "compressed" "enableSourceMap" false "includePaths" (slice "node_modules/myscss")) }}
+  {{ $toCssOptions := (dict "outputStyle" "compressed" "enableSourceMap" false) }}
 
   {{ if .Site.IsServer }}
-  {{ $toCssOptions := (dict "outputStyle" "compressed" "enableSourceMap" true "includePaths" (slice "node_modules/myscss")) }}
+  {{ $toCssOptions = (dict "outputStyle" "compressed" "enableSourceMap" true) }}
   {{ end }}
 
   {{ $styles := resources.Get "scss/style.scss" | resources.ToCSS $toCssOptions | resources.PostCSS | resources.Minify | resources.Fingerprint }}
