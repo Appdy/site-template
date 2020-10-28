@@ -29,10 +29,31 @@ link = "plugins/bootstrap/bootstrap.min.js"
 
 
 # menu
-# [[menu.main]]
-# URL = "about"
-# name = "About"
-# weight = 1
+[[menu.main]]
+URL = "#services"
+name = "Services"
+weight = 1
+
+[[menu.main]]
+URL = "#clients"
+name = "Clients"
+weight = 2
+
+[[menu.main]]
+URL = "#free-case-study"
+name = "Case Study"
+weight = 3
+
+[[menu.main]]
+URL = "#about"
+name = "About"
+weight = 4
+
+[[menu.main]]
+URL = "#contact"
+name = "Contact"
+weight = 5
+
 
 # [[menu.main]]
 # URL = "blog"
